@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('resources/pictures/background.png');
+  	background-size: 100% 100%;
+}
+
+img {
+  width: 100%;
+  height: 300%;
+}
+
+.spacer {
+	width: 100%;
+	height: 10%;
+}
+
+.top-image-corners {
+  border-radius: 50px 50px 0px 0px;
+  overflow: hidden;
+}
+
+.bot-image-corners {
+  border-radius: 0px 0px 50px 50px;
+  overflow: hidden;
+}
